@@ -17,6 +17,9 @@ img.cole2{
 Failed attempt to use CSS classes to put Cole on the left and right.
 
 */
+h2{
+  text-decoration: underline;
+}
 
 div.container{
   display:block;
@@ -24,4 +27,20 @@ div.container{
   text-align:center;
 }
 
+div.Cole{
+  float:right;
+  margin:2%;
+  width:45%
+}
+
+div.Sam{
+  float:left;
+  margin:2%;
+  width:45%
+}
+
+div.block{
+  width:auto;
+  height:auto;
+}
 /* Text align: center doesn't seem to center the pictures. Cole, you should look in to this.
