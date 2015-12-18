@@ -1,0 +1,15 @@
+ul.bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  float:left;
+  padding: 1em;
+}
+.header {
+  float:right;
+}
+.name{
+  color:#666666
+}
