@@ -1,7 +1,17 @@
+body {
+  height:100%;
+  margin:0;
+  padding:0;
+}
+.container {
+  min-height:100%;
+  position:relative;
+}
 ul.bar {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  padding-left: 1em;
 }
 li {
   float:left;
@@ -39,4 +49,28 @@ img {
 input {
   width: 500px;
   height: 30px;
+}
+div.input {
+  width: 500px;
+  height: 30px;
+  margin:auto;
+  box-sizing:border-box;
+  border:1px ridge #CCC;
+}
+.footer {
+  bottom:23px;
+  width:100%;
+  height:18px;
+  position:absolute;
+  padding:0;
+  margin:0;
+  border-top:1px solid #DDD;
+  font-size: 10px;
+}
+ul.bar2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-right:1em;
+  float:right;
 }
