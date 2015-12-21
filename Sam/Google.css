@@ -4,6 +4,7 @@
 	margin-right: auto;
 	text-align: center;
 	padding-top: 100px;
+	padding-bottom: 20px;
 }
 
 #search{
@@ -16,10 +17,31 @@
 .searchBox{
 	background-image: url('images/google-mic.png');
 	background-position: 7px 7px;
-	background-size: 15px 15px;
+	background-size: 23px 23px;
 	background-repeat: no-repeat;
 	padding-left: 20px;
-	width: 400px;
-	height: 30px;
+	width: 500px;
+	height: 40px;
+	background-position: right;
+}
 
+.buttonGroup{
+	text-align: center;
+}
+
+.googleSearchButton{
+	display: inline-block;	
+}
+
+.googleLuckyButton{
+	display: inline-block;	
+}
+
+.bottomFooter{
+	text-align: left;
+	display: inline-block;
+}
+
+form {
+	color: #09C;	
 }
