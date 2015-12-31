@@ -41,15 +41,14 @@
 }
 
 ul {
-	position: absolute;
 	bottom: 0;
-	width: 100%;
-	text-align: left;
 	display: inline;
 	vertical-align: text-bottom;
 	height: 23px;
-	border: 1px solid #e7e7e7;
-	background-color: #f3f3f3;
+}
+
+li {
+	display: inline;
 }
 
 .fullFooter{
@@ -60,8 +59,10 @@ ul {
 	display: inline;
 	vertical-align: text-bottom;
 	height: 23px;
-	border: 1px solid #e7e7e7;
+	border-top: 1px solid #e7e7e7;
 	background-color: #f3f3f3;
+	margin: 0px;
+	padding: 0px;
 }
 
 .leftFooter{
@@ -70,6 +71,7 @@ ul {
 	padding: 0;
 	display: inline;
 	float: left;
+	padding-top: 5px
 }
 
 .rightFooter{
@@ -77,7 +79,8 @@ ul {
 	margin: 0;
 	padding: 0;
 	display: inline;
-	float: right;	
+	float: right;
+	padding-top: 5px;
 }
 
 form {
