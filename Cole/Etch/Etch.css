@@ -1,0 +1,41 @@
+button {
+  margin:auto;
+}
+html {
+  background-color:#A8C8FF;
+  opacity:1;
+}
+#container {
+  width:100%
+}
+#etch-container {
+  background-color:#DDD;
+  height:800px;
+  width:800px;
+  margin:auto;
+  display:block;
+  padding:0;
+  margin-bottom:0;
+  margin-top:0;
+}
+.grid-square {
+  height:50px;
+  width:50px;
+  background-color:#EEE;
+  box-sizing:border-box;
+  border:1px solid #DDD;
+  display:inline-block;
+  padding:0;
+  margin:0;
+  vertical-align:top;
+}
+.grid-row {
+  width:100%;
+  vertical-align:top;
+}
+#buttons {
+  margin:auto;
+  display:block;
+  width:800px;
+  text-align:center;
+}
